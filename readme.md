@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://namepedia.herokuapp.com/"><img src="https://namepedia.herokuapp.com/images/NP.png" alt="Noujontro" style='height:50px;width:50px'></a>
+<a href="https://namepedia.herokuapp.com/"><img src="https://namepedia.herokuapp.com/images/NP.png" alt="Noujontro" style='height:100px;width:100px'></a>
 </p>
 
 ## About Noujontro
