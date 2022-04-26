@@ -1,0 +1,136 @@
+
+.navbar-brand{color: #333;}
+
+.main-menuarea{
+
+        background-color: #fff;
+}
+.main-menuarea ul{
+
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display: inline-block;
+}
+
+.main-menuarea li{
+    display: inline-block;
+    position: relative;
+}
+
+.main-menuarea li a{
+    position: relative;
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+     background:  #fff;
+    z-index:  1;
+}
+.main-menuarea li ul{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+
+}
+ul{
+ z-index:4;
+
+
+}
+.main-menuarea li ul a{
+    text-transform: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-menuarea li ul li{
+    display: block;
+    width: 150px;
+}
+.main-menuarea li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+
+/* 2nd level dropdown */
+
+.main-menuarea li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+.main-menuarea ul ul li ul{
+    left: 150px;
+}
+.main-menuarea ul ul li:hover > ul{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.main-menuarea li a:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width: 0;
+    height: 100%;
+    content:  '';
+    background:  #333;
+    z-index:  -1;
+    transition:  0.4s;
+}
+
+.main-menuarea li:hover > a:before {
+    width:  100%;
+}
+
+.main-menuarea li:hover > a {
+    color: #fff;
+}
+
+
+.slicknav_menu {
+    background:  #fff;
+    display: none;
+}
+
+.slicknav_brand a {
+    color:  #333;
+}
+
+.slicknav_btn {
+    background:  #fff;
+    color:  #333;
+    border:  2px solid;
+}
+
+span.slicknav_icon.slicknav_no-text {}
+
+.slicknav_menu .slicknav_icon-bar {
+    background:  #333;
+}
+
+.slicknav_menu li
+ a {
+    color:  #333;
+}
+
+
+@media (max-width: 767px) {
+    #mainmenu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}

@@ -1,0 +1,440 @@
+html,body{
+  height: 100%;
+  position: relative;
+    width: auto !important;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-image: url("/images/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+
+
+
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-brand{color: #333;}
+
+.main-menuarea{
+
+        background-color: #fff;
+}
+.main-menuarea ul{
+
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display: inline-block;
+}
+
+.main-menuarea li{
+    display: inline-block;
+    position: relative;
+}
+
+.main-menuarea li a{
+    position: relative;
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+     background:  #fff;
+    z-index:  1;
+}
+.main-menuarea li ul{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+
+}
+
+.main-menuarea li ul a{
+    text-transform: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-menuarea li ul li{
+    display: block;
+    width: 150px;
+}
+.main-menuarea li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+
+/* 2nd level dropdown */
+
+.main-menuarea li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+.main-menuarea ul ul li ul{
+    left: 150px;
+}
+.main-menuarea ul ul li:hover > ul{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.main-menuarea li a:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width: 0;
+    height: 100%;
+    content:  '';
+    background:  #333;
+    z-index:  -1;
+    transition:  0.4s;
+}
+
+.main-menuarea li:hover > a:before {
+    width:  100%;
+}
+
+.main-menuarea li:hover > a {
+    color: #fff;
+}
+
+
+.slicknav_menu {
+    background:  #fff;
+    display: none;
+}
+
+.slicknav_brand a {
+    color:  #333;
+}
+
+.slicknav_btn {
+    background:  #fff;
+    color:  #333;
+    border:  2px solid;
+}
+
+span.slicknav_icon.slicknav_no-text {}
+
+.slicknav_menu .slicknav_icon-bar {
+    background:  #333;
+}
+
+.slicknav_menu li
+ a {
+    color:  #333;
+}
+
+
+@media (max-width: 767px) {
+    #mainmenu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-brand{color: #333;}
+
+.main-menuarea{
+
+        background-color: #fff;
+}
+.main-menuarea ul{
+
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    display: inline-block;
+}
+
+.main-menuarea li{
+    display: inline-block;
+    position: relative;
+}
+
+.main-menuarea li a{
+    position: relative;
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+     background:  #fff;
+    z-index:  1;
+}
+.main-menuarea li ul{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+
+}
+
+.main-menuarea li ul a{
+    text-transform: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-menuarea li ul li{
+    display: block;
+    width: 150px;
+}
+.main-menuarea li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+
+/* 2nd level dropdown */
+
+.main-menuarea li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+.main-menuarea ul ul li ul{
+    left: 150px;
+}
+.main-menuarea ul ul li:hover > ul{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.main-menuarea li a:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width: 0;
+    height: 100%;
+    content:  '';
+    background:  #333;
+    z-index:  -1;
+    transition:  0.4s;
+}
+
+.main-menuarea li:hover > a:before {
+    width:  100%;
+}
+
+.main-menuarea li:hover > a {
+    color: #fff;
+}
+
+
+.slicknav_menu {
+    background:  #fff;
+    display: none;
+}
+
+.slicknav_brand a {
+    color:  #333;
+}
+
+.slicknav_btn {
+    background:  #fff;
+    color:  #333;
+    border:  2px solid;
+}
+
+span.slicknav_icon.slicknav_no-text {}
+
+.slicknav_menu .slicknav_icon-bar {
+    background:  #333;
+}
+
+.slicknav_menu li
+ a {
+    color:  #333;
+}
+
+
+@media (max-width: 767px) {
+    #mainmenu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}
+
+
+.fixed-top{width: 100vw;}
+/* Gloabal setting */
+a:hover { text-decoration: none; color:#202226; }
+a{color: #2ecc71;}
+
+.xt-table{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.xt-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+/* Global setting end */
+
+.hero-bg{background-image: url(../images/bg-1.jpg);}
+.main-color{color:#2ecc71;}
+
+
+
+
+/*==================
+Home page hero area 
+======================*/
+.home-page-hero-area{
+    height: 100%;
+    width: 100%;
+}
+.hero-bg{
+    background-color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #000;
+    opacity: 0.7;
+    z-index:-1;
+}
+
+.home-page-hero-area h1, #typed {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.home-page-hero-area p {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
+
+.sell-btn {
+    display: inline-block;
+    font-size: 22px;
+    background: #2ecc71;
+    border-radius: 35px;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.sell-btn:hover {
+    color: #2ecc71;
+    background: #fff;
+}
+.sell-btn i.fa {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.sell-btn:hover i.fa {
+    padding-left: 8px;
+}
+/*==================
+Home page hero area end
+======================*/
+
+/* ===========
+
+
+/* ===========
+Process area end
+================ */
+
+/* ==============
+sell btn
+============= */
+
+.sell-btn-area {
+    background-color: #202226;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.sell-btn-area h2 {
+    margin: 0;
+    font-size: 35px;
+    line-height: 63px;
+}
+
+
+/* =============
+
+
+/* ===================
+    prifile area
+======================== */
+.typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 2s infinite;
+    -webkit-animation: typedjsBlink 2s infinite;
+    animation: typedjsBlink 2s infinite;
+    color: #2ecc71;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@keyframes typedjsBlink{
+50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+0% { opacity: 1; }
+50% { opacity: 0.0; }
+100% { opacity: 1; }
+}

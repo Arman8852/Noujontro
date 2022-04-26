@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Autour+One|Macondo+Swash+Caps');
+@font-face {
+
+
+font-family: 'Macondo Swash Caps', cursive;
+font-family: 'Autour One', cursive;
+
+}
+
+
+
+.footer{
+   
+   background-image:url('/images/footer.png'); 
+
+   background-color: #252525;
+   
+   
+   
+   margin-top:7em;
+
+  
+  
+}
+
+
+.department{
+  font-family: 'Macondo Swash Caps';
+  
+  
+ background-color:#5D963F; 
+
+}
+.full-width-wrikkho{
+font-family: 'Autour One';
+background-color:#5D963F;
+background-repeat: no-repeat;
+ 
+
+  padding-top:1em; 
+  background-size: cover;
+
+
+}
+
+.serach-header{
+  padding-top:2em;
+  font-size: 50px;
+  font-weight:bold; 
+ font-family: 'Macondo Swash Caps';
+
+
+}
+
+.footer a {
+     font-family: 'Autour One';
+    font-size:22px;
+    color:#2ecc71;
+    text-decoration: none;
+}
+
+
+.border-content{
+
+border: 1px solid #95a5a6 !important;
+
+}
+
+
+
+
+
+
+
+.footer a:hover,
+.footer a:focus {
+    text-decoration: none;
+    color:#1abc9c;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+
+.header{
+   color:#ecf0f1;
+
+
+}
+.heart-color{
+
+ color:#ecf0f1;
+
+
+}
+
+.link-content{
+
+padding-bottom:1em; 
+}
+
+
+
+.wrikkho{
+
+font-size:25px; 
+
+}
+
+.logo{
+  width:100px;
+  height:100px;
+
+
+
+}
+
+

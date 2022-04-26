@@ -1,0 +1,36 @@
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+
+.logo-alt {
+    max-height: 100px;
+    display: block;
+  padding-top: 0em;
+    float:left;
+}
+
+
+.mspc-data{
+
+margin-top:-5em;
+
+}
+
+.mspc {
+    padding-top: 0em;
+    display: block;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+   font-size:30px;
+}
+
+
+.department{
+font-size:15px;
+ display:inline;
+
+ 
+}
+

@@ -1,0 +1,98 @@
+
+=================== */
+/* ===================
+    chkout area
+======================== */
+
+.checkout-form p {
+    font-size: 90%;
+    color: #7f8c8d;
+}
+
+.checkout-form input[type=text],.checkout-form input[type=password],.checkout-form textarea {
+    width: 100%;
+    border: none;
+    background: #F2F2F2;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    color: #333;
+}
+.checkout-form input:focus,.checkout-form textarea;focus{
+    outline:none;
+}
+
+.checkout-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.checkout-form input[type='submit'] {
+    border: none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+.checkout-area-header {
+    background: #2ecc71;
+    padding: 60px 40px;
+    height: 100%;
+    color: #fff;
+}
+
+.checkout-area-header
+ h4 {
+    font-size: 28px;
+}
+
+.checkout-area-header
+ h4 span {
+    font-weight: 900;
+}
+
+.checkout-area-header p {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.checkout-area-header p span {
+    font-weight: 700;
+}
+
+.checkout-area {
+    margin: 60px auto;
+}
+
+.checkout-form {
+    box-shadow: 0 0 10px #ddd;
+    padding: 40px 30px;
+}
+
+.checkout-area-header a {
+    color: #202226;
+    font-size: 80%;
+    display: block;
+    font-weight: 500;
+}
+/* ===================
+    chkout area
+======================== */
+/* ===================
+    contact area
+======================== */
+

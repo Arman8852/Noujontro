@@ -1,0 +1,72 @@
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+
+.container {
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ .logo-alt {
+    max-height: 400px;
+    display: block;
+  padding-top: 3em;
+    float:left;
+}
+
+
+.mspc-data{
+
+margin-top:-5em;
+
+}
+
+.mspc {
+    padding-top: 0em;
+    display: block;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+   font-size:44px;
+}
+
+
+.department{
+font-size:20px;
+ display:inline;
+
+ 
+}
+
+
+input[type='submit'], button[type='submit'], .chkout-btn, .go-back, .checkout-form input[type='submit'], .xt-btn {
+    background: #2ecc71;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 10px 10px 0;
+    display: inline-block;
+    transition: 0.3s;
+}

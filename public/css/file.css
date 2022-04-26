@@ -1,0 +1,47 @@
+
+
+
+body{
+background-color:#3498db;
+
+
+
+}
+
+.file-name{
+
+  color:#2c3e50;
+word-wrap: break-word;
+
+	
+}
+
+.file-image{
+
+width:150px;
+height:150px;
+
+
+}
+
+.file-section{
+	
+  margin-top:2em;
+  border:3px solid black;
+   background-color:#81C784;
+  font-family: 'Playfair Display SC', serif
+
+}
+
+
+.credentials{
+font-family: 'Josefin Slab', serif;
+
+
+}
+
+.download{
+
+font-family: 'Arima Madurai', cursive;
+	
+}
